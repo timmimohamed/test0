@@ -1,0 +1,15 @@
+Package: pTimmi
+Type: Package
+Title: Package de test ptimmi
+Version: 0.1.0
+Author: Mohamed TIMMI
+Maintainer: Mohamed TIMMI <timmi.med@gmail.com>
+Description: Package de test ptimmi
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+imports:
+  quantmod,stats,xts
+Suggest:
+  knitr
+RoxygenNote: 6.1.0
