@@ -14,5 +14,5 @@
 #   Test Package:              'Ctrl + Shift + T'
 
 azul <- function() {
-  print("Azul, Amadal!")
+  print("Azul tifawine, Amadal!")
 }
