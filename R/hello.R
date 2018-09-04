@@ -15,9 +15,7 @@
 
 library(ggplot2)
 library(sp)
-
 azul <- function() {
   print("Azul tifawine, Amadal!")
-  download.file("https://raw.githubusercontent.com/timmimohamed/test0/master/reg_fes_meknes.csv", destfile = "/temp/test.csv",method="wininet")
-  head(read.csv("/temp/test.csv"))
+  download.file("https://raw.githubusercontent.com/timmimohamed/test0/master/reg_fes_meknes.csv", destfile =paste0(getwd(),"/","test.csv"),method="wininet")
 }
