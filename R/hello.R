@@ -18,5 +18,5 @@ library(sp)
 
 azul <- function() {
   print("Azul tifawine, Amadal!")
-  download.file("https://github.com/timmimohamed/test0/reg_fes_meknes.csv", destfile = "C:/test.csv",method="wininet")
+  download.file("https://raw.githubusercontent.com/timmimohamed/test0/master/reg_fes_meknes.csv", destfile = "d:/test.csv",method="wininet")
 }
