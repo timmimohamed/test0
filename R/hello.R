@@ -18,6 +18,5 @@ library(sp)
 
 azul <- function() {
   print("Azul tifawine, Amadal!")
-  shapeData <- spTransform(readOGR(dsn="." ,layer = 'https://github.com/timmimohamed/test0/regions/regions'), CRS("+proj=longlat +ellps=GRS80"))
-  plot(shapeData)
+  download.file("https://github.com/timmimohamed/test0/reg_fes_meknes.csv", destfile = "/tmp/test.csv",method="wininet")
 }
