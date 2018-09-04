@@ -18,6 +18,6 @@ library(sp)
 
 azul <- function() {
   print("Azul tifawine, Amadal!")
-  shapeData <- spTransform(readOGR(dsn="." ,layer = 'regions/regions'), CRS("+proj=longlat +ellps=GRS80"))
+  shapeData <- spTransform(readOGR(dsn="." ,layer = '../regions/regions'), CRS("+proj=longlat +ellps=GRS80"))
   plot(shapeData)
 }
