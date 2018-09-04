@@ -1,15 +1,11 @@
-Package: pTimmi
+Package: mapRegMar
 Type: Package
-Title: Package de test ptimmi
+Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Mohamed TIMMI
-Maintainer: Mohamed TIMMI <timmi.med@gmail.com>
-Description: Package de test ptimmi
-License: GPL-2
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-imports:
-  quantmod,stats,xts
-Suggest:
-  knitr
-RoxygenNote: 6.1.0
