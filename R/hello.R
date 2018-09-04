@@ -13,6 +13,11 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
+library(ggplot2)
+library(sp)
+
 azul <- function() {
   print("Azul tifawine, Amadal!")
+  shapeData <- spTransform(readOGR(dsn="." ,layer = 'regions/regions'), CRS("+proj=longlat +ellps=GRS80"))
+  plot(shapeData)
 }
